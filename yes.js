@@ -28,7 +28,7 @@ const imageFolder = "assets/tiles/";
 const categories = {
                       'g': {name: "grass", number: 59, prefix: "g", container: divGrass},
                       'w': {name: "water", number: 57, prefix: "w", container: divWater},
-                      'c': {name: "cliffs", number: 36, prefix: "c", container: divCliff},
+                      'c': {name: "cliffs", number: 37, prefix: "c", container: divCliff},
                       'f': {name: "flowers", number: 8, prefix: "f", container: divFlowers}
 };
 let canvasArray = new Array(10).fill(0).map(() => new Array(10).fill("void"));
