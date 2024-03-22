@@ -131,7 +131,7 @@ function saveButton() {
     const dataURL = canvas.toDataURL('image/png')
     const downloadLink = document.createElement('a');
     //on demande le nom du fichier
-    let filenamepng = prompt("Name of your creation :");
+    let filenamepng = prompt("Your Land ID :");
     filenamepng = filenamepng + ".png";
     downloadLink.href = dataURL;
     downloadLink.download = filenamepng;
